@@ -1,5 +1,5 @@
 [{
-	"title": "hiscores",
+	"title": "shmup-hiscores",
 	"description": "shmup hiscores",
 	"categories": ["docker"],
 	"platform": "linux",
