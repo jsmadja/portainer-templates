@@ -4,7 +4,7 @@
 	"categories": ["docker"],
 	"platform": "linux",
 	"logo": "http://hiscores.shmup.com/assets/images/Logo-Hiscore-Shmup.png",
-	"image": "jsmadja/hiscores:latest",
+	"image": "jsmadja/shmuphiscores:latest",
 	"ports": ["9001/tcp"],
   	"volumes": ["/covers", "/inp", "/photos"]
 }]
