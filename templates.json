@@ -1,16 +1,10 @@
-[
-{
-title: "hiscores",
-description: "shmup hiscores",
-categories: [
-"docker"
-],
-platform: "linux",
-logo: "http://hiscores.shmup.com/assets/images/Logo-Hiscore-Shmup.png",
-image: "hiscores:latest",
-ports: [
-"9001/tcp"
-],
-volumes: [
-]
+[{
+	"title": "hiscores",
+	"description": "shmup hiscores",
+	"categories": ["docker"],
+	"platform": "linux",
+	"logo": "http://hiscores.shmup.com/assets/images/Logo-Hiscore-Shmup.png",
+	"image": "hiscores:latest",
+	"ports": ["9001/tcp"],
+	"volumes": []
 }]
