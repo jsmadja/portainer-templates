@@ -7,5 +7,6 @@
 	"image": "jsmadja/shmuphiscores:latest",
 	"ports": ["9001/tcp"],
   	"volumes": ["/covers", "/inp", "/photos"],
-	"interactive": true
+	"interactive": true,
+	"restart_policy": "unless-stopped"
 }]
