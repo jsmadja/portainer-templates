@@ -6,5 +6,6 @@
 	"logo": "http://hiscores.shmup.com/assets/images/Logo-Hiscore-Shmup.png",
 	"image": "jsmadja/shmuphiscores:latest",
 	"ports": ["9001/tcp"],
-  	"volumes": ["/covers", "/inp", "/photos"]
+  	"volumes": ["/covers", "/inp", "/photos"],
+	"interactive": true
 }]
