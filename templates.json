@@ -9,4 +9,14 @@
   	"volumes": ["/covers", "/inp", "/photos"],
 	"interactive": true,
 	"restart_policy": "unless-stopped"
+},
+{
+	"title": "myscores",
+	"description": "myscores",
+	"categories": ["docker"],
+	"platform": "linux",
+	"image": "jsmadja/myscores:latest",
+	"ports": ["9001/tcp"],
+  	"interactive": true,
+	"restart_policy": "unless-stopped"
 }]
