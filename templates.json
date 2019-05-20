@@ -11,12 +11,12 @@
 	"restart_policy": "unless-stopped"
 },
 {
-	"title": "myscores",
-	"description": "myscores",
+	"title": "hiscores-api",
+	"description": "hiscores-api",
 	"categories": ["docker"],
 	"platform": "linux",
-	"image": "jsmadja/myscores:latest",
-	"ports": ["9001/tcp"],
+	"image": "jsmadja/hiscores-api:latest",
+	"ports": ["3000/tcp"],
   	"interactive": true,
 	"restart_policy": "unless-stopped"
 }]
