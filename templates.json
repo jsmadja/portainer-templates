@@ -19,4 +19,14 @@
 	"ports": ["3000/tcp"],
   	"interactive": true,
 	"restart_policy": "unless-stopped"
+},
+{
+	"title": "shmup-companion",
+	"description": "shmup-companion",
+	"categories": ["docker"],
+	"platform": "linux",
+	"image": "jsmadja/shmup-companion:latest",
+	"ports": ["80/tcp"],
+  	"interactive": true,
+	"restart_policy": "unless-stopped"
 }]
