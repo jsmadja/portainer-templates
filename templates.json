@@ -29,4 +29,24 @@
 	"ports": ["80/tcp"],
   	"interactive": true,
 	"restart_policy": "unless-stopped"
+},
+{
+	"title": "antre-des-dragons-web",
+	"description": "antre-des-dragons-web",
+	"categories": ["docker"],
+	"platform": "linux",
+	"image": "jsmadja/antre-des-dragons-web:latest",
+	"ports": ["80/tcp"],
+  	"interactive": true,
+	"restart_policy": "unless-stopped"
+},
+{
+	"title": "antre-des-dragons-api",
+	"description": "antre-des-dragons-api",
+	"categories": ["docker"],
+	"platform": "linux",
+	"image": "jsmadja/antre-des-dragons-api:latest",
+	"ports": ["8080/tcp"],
+  	"interactive": true,
+	"restart_policy": "unless-stopped"
 }]
