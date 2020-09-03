@@ -9,6 +9,17 @@
   	"volumes": ["/covers", "/home/jsmadja/hiscores_data/covers", "/inp", "/home/jsmadja/hiscores_data/inp", "/photos", "/home/jsmadja/hiscores_data/photos"],
 	"interactive": true,
 	"restart_policy": "unless-stopped"
+},{
+	"title": "hiscores-api-v2",
+	"description": "shmup hiscores api v2",
+	"categories": ["docker"],
+	"platform": "linux",
+	"logo": "http://hiscores.shmup.com/assets/images/Logo-Hiscore-Shmup.png",
+	"image": "jsmadja/shmuphiscores:latest",
+	"ports": ["8080/tcp"],
+  	"volumes": ["/covers", "/home/jsmadja/hiscores_data/covers", "/inp", "/home/jsmadja/hiscores_data/inp", "/photos", "/home/jsmadja/hiscores_data/photos"],
+	"interactive": true,
+	"restart_policy": "unless-stopped"
 },
 {
 	"title": "hiscores-api",
