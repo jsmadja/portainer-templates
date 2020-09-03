@@ -15,49 +15,19 @@
 	"categories": ["docker"],
 	"platform": "linux",
 	"logo": "http://hiscores.shmup.com/assets/images/Logo-Hiscore-Shmup.png",
-	"image": "jsmadja/shmuphiscores:latest",
+	"image": "jsmadja/hiscores:latest",
 	"ports": ["8080/tcp"],
   	"volumes": ["/covers", "/home/jsmadja/hiscores_data/covers", "/inp", "/home/jsmadja/hiscores_data/inp", "/photos", "/home/jsmadja/hiscores_data/photos"],
 	"interactive": true,
 	"restart_policy": "unless-stopped"
-},
-{
-	"title": "hiscores-api",
-	"description": "hiscores-api",
+},{
+	"title": "hiscores-web-v2",
+	"description": "shmup hiscores web v2",
 	"categories": ["docker"],
 	"platform": "linux",
-	"image": "jsmadja/hiscores-api:latest",
-	"ports": ["3000/tcp"],
-  	"interactive": true,
-	"restart_policy": "unless-stopped"
-},
-{
-	"title": "shmup-companion",
-	"description": "shmup-companion",
-	"categories": ["docker"],
-	"platform": "linux",
-	"image": "jsmadja/shmup-companion:latest",
+	"logo": "http://hiscores.shmup.com/assets/images/Logo-Hiscore-Shmup.png",
+	"image": "jsmadja/hiscores-web:latest",
 	"ports": ["80/tcp"],
-  	"interactive": true,
-	"restart_policy": "unless-stopped"
-},
-{
-	"title": "antre-des-dragons-web",
-	"description": "antre-des-dragons-web",
-	"categories": ["docker"],
-	"platform": "linux",
-	"image": "jsmadja/antre-des-dragons-web:latest",
-	"ports": ["80/tcp"],
-  	"interactive": true,
-	"restart_policy": "unless-stopped"
-},
-{
-	"title": "antre-des-dragons-api",
-	"description": "antre-des-dragons-api",
-	"categories": ["docker"],
-	"platform": "linux",
-	"image": "jsmadja/antre-des-dragons-api:latest",
-	"ports": ["8080/tcp"],
-  	"interactive": true,
+	"interactive": true,
 	"restart_policy": "unless-stopped"
 }]
